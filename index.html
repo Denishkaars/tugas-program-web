@@ -1,0 +1,282 @@
+<html>
+    <title>Real Madrid</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="css/w3.css"> 
+<link rel="icon" href="css/icon.webp">
+<style>body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+  }</style>
+<body style="background-color: white;"> 
+    
+    <div class="w3-container"> 
+        <img src="css/banner2madridnobg.png" alt="" style="width:100%; height:200px; object-fit:contain" > 
+    </div>
+
+    <div class="w3-bar " style=" display: flex;
+    background-color: hsl(221, 68%, 30%);
+    font-weight: 600;
+    justify-content: center; ">
+    <div class="w3-dropdown-hover w3-right w3-margin-right">
+        <button class="w3-button" style="background-color: hsl(221, 68%, 30%); color: hsl(45, 98%, 49%)">Home</button>
+        <div class="w3-dropdown-content w3-bar-block w3-border " >
+            <button class="w3-bar-item w3-button" onclick="changeContent('Home')">Home</button>
+            <button class="w3-bar-item w3-button" onclick="changeContent('History')">History</button>
+        </div>
+    </div> 
+        <button class="w3-bar-item w3-button w3-bar-item w3-button " style="color: hsl(45, 98%, 49%)"
+        onclick="changeContent('Players')">Players</button>
+        <button class="w3-bar-item w3-button w3-bar-item w3-button " style="color: hsl(45, 98%, 49%)"
+        onclick="changeContent('Santiago_Bernabéu')">Santiago Bernabéu</button> 
+        <button class="w3-bar-item w3-button w3-bar-item w3-button " style="color: hsl(45, 98%, 49%)"
+        onclick="changeContent('About_Me')">About Me</button> 
+    </div> 
+    <div class="w3-container  w3-animate-zoom" style="background-color: rgb(250, 246, 246);">
+        <div class="content" id="Home">
+            <h1 class=" w3-margin-top w3-center" style="color: black;"><strong>Hight lights</strong></h1>
+            <div class="w3-display-container">
+                <img src="css/home.jpg" width="100%" class="w3-round-xxlarge">
+                <h1 class="w3-display-bottomleft "style="color: white;"><strong>Getafe-Real Madrid: gunning for top spot again</h1></strong>
+            </div>
+            <div style="height: 150px;">
+                
+            </div>   
+            <div class="w3-display-container">
+                <img src="css/spanishsupercup.jpg" width="100%" class="w3-round-xxlarge">
+                <h1 class="w3-display-bottomleft "style="color: white;"><strong>The club's 13th Spanish Super Cup</h1></strong>
+            </div>
+            <div style="height: 150px;">
+                
+            </div>   
+            <div class="w3-display-container">
+                <img src="css/judebellingham.jpg" width="100%" class="w3-round-xxlarge">
+                <h1 class="w3-display-bottomleft "style="color: white;"><strong>Bellingham: “You never imagine how big Real Madrid is"</h1></strong>
+            </div>
+        </div>        
+    </div>
+    <div class="w3-container " style="background-color: rgb(250, 246, 246);">
+        <div class="content" id="History" style="display: none;">
+            <div class="w3-row w3-padding-64" id="about">
+                <div class="w3-col m6 w3-padding-large ">
+                    <img src="css/madridhistory.jpg" class="w3-round-large w3-image w3-opacity-min w3-animate-left ">
+                        
+                </div>
+
+                <div class="w3-col m6 w3-padding-large w3-text-white w3-animate-right ">
+                    <h1 class="w3-gradient-text" style="color: black;"><strong> "¡Hala Madrid!"</strong></h1><br>
+                    <p class="w3-large " style="color: black;">
+                        On March 6, 1902, the founding of the Madrid football club took place. In it, under the presidency of Juan Padros,
+                         the statutes of the club were approved, which played in these first years in different pitches across Madrid 
+                         until the O'Donnell Stadium was established as the club's home in 1912.As sport grew across Spain, 
+                         and football was started to be more followed by fans, Los Blancos was one of the pioneering teams and 
+                         helped with the creation of competitions such as the Copa del Rey, of which they won four of 
+                         the opening six editions.After being awarded the title of 'Real' by Alfonso XIII in 1920, 
+                         the Estadio Chamartin was inaugurated in 1924 and nothing could stop the club's momentum.
+
+                    </p>
+                </div>
+            </div>
+            <div class="w3-row w3-padding-64" id="about">
+                <div class="w3-col m6 w3-padding-large w3-text-white w3-animate-left ">
+                    <h1 class="w3-gradient-text" style="color: black;"><strong> "The Quinta del Buitre"</strong></h1><br>
+                    <p class="w3-large " style="color: black;">
+                        In the early 1980s there was a generation of footballers who defined the team once they 
+                        progressed from Castilla to the senior team.Headed by Emilio Butragueno, 
+                        the group included Michel, Martin Vazquez, Manolo Sanchis and Miguel Pardeza. 
+                        Journalist Julio Cesar Iglesias gave them the name Quinta del Buitre.
+                        These players helped win two UEFA Cups and five successive Spanish LaLiga titles, 
+                        although this brilliant generation could never win the Champions League.
+                    </p>
+                </div>
+                <div class="w3-col m6 w3-padding-large ">
+                    <img src="css/madridhistory2.jpg" class="w3-round-large w3-image w3-opacity-min w3-animate-right ">
+                       
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content" id="Players" style="display: none;" >
+        <h1 class="w3-gradient-text w3-margin-top w3-center w3-animate-opacity"><strong>Goalkeepers</strong></h1>
+        <div class="w3-center w3-row">
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/COURTOIS.jpg" height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>1</strong> Courtois</div>
+            </div>
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/LUNIN.jpg" height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>13</strong> Lunin</div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h1 class="w3-gradient-text w3-margin-top w3-center w3-animate-opacity"><strong>Defenders</strong></h1>
+        <div class="w3-center w3-row ">
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/CARVAJAL.jpg" height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top" ><strong>2</strong> Carvajal</div>
+            </div>
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/MILITAO.jpg" height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>3</strong> E. Militão</div>
+            </div>
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/ALABA.jpg" height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>4</strong> Alaba</div>
+            </div>
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/NACHO.jpg" height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>6</strong> Nacho</div>
+            </div>
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/LUCAS.jpg" height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>17</strong> Lucas
+                </div>
+            </div>
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/FRAN_GARCIA.jpg " height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>20</strong> Fran García</div>
+            </div>
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/RUDIGER.jpg" height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>22</strong> Rüdiger</div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h1 class="w3-gradient-text w3-margin-top w3-center w3-animate-opacity"><strong>Midfielders</strong></h1>
+        <div class="w3-center w3-row">
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/BELLINGHAM.jpg" height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>5</strong> Bellingham</div>
+            </div>
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/KROOS.jpg" height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>8</strong> Kroos</div>
+            </div>
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/MODRIC.jpg" height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>10</strong> Modric</div>
+            </div>
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/CAMAVINGA.jpg" height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>12</strong> Camavinga</div>
+            </div>
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/VALVERDE.jpg" height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>15</strong> Valverde
+                </div>
+            </div>
+            <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                <img src="css/TCHOUAMENI.jpg" height="50%" alt="" class="w3-round-large">
+                <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>18</strong> Tchouaméni</div>
+            </div>
+        </div>
+        <h1 class="w3-gradient-text w3-margin-top w3-center w3-animate-opacity"><strong>Forwards</strong></h1>
+            <div class="w3-center w3-row">
+                <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                    <img src="css/VINICIUS.jpg" height="50%" alt="" class="w3-round-large">
+                    <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>7</strong> Vini Jr.</div>
+                </div>
+                <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                    <img src="css/RODRYGO.jpg" height="50%" alt="" class="w3-round-large">
+                    <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>11</strong> Rodrygo
+                    </div>
+                </div>
+                <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                    <img src="css/JOSELU.jpg" height="50%" alt="" class="w3-round-large">
+                    <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>14</strong> Joselu</div>
+                </div>
+                <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                    <img src="css/BRAHIM.jpg" height="50%" alt="" class="w3-round-large">
+                    <div class="w3-text-black w3-animate-opacity w3-margin-top"><strong>21</strong> Brahim</div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <h1 class="w3-gradient-text w3-margin-top w3-center w3-animate-opacity"><strong>Coach</strong></h1>
+            <div class="w3-center w3-row">
+                <div class="w3-container w3-animate-bottom  w3-col m4 w3-mobile">
+                    <img src="css/ANCELOTTI.jpg" height="50%" alt="" class="w3-round-large">
+                    <div class="w3-text-black w3-animate-opacity w3-margin-top">CARLO ANCELOTTI</div>
+                </div>
+            </div>   
+    </div>
+    <div class="content" id="Santiago_Bernabéu" style="display: none;" >
+        <h2 class="w3-center">Santiago Bernabéu</h2>
+        <center>
+            <div class="w3-content w3-display-container w3-round-xxlarge">
+                <img class="mySlides" src="css/bernabeu1.jpg" class= "w3-round-xxlarge"style="width: 50%" >
+                <img class="mySlides" src="css/bernabeu3.jpg" class= "w3-round-xxlarge"style="width: 50%" >
+                <img class="mySlides" src="css/bernabeu4.jpg" class= "w3-round-xxlarge"style="width: 50%" >
+                <img class="mySlides" src="css/bernabeu5.jpg" class= "w3-round-xxlarge"style="width: 50%" >
+            </div>
+            <div class="w3-container w3-center">
+                <p class="w3-serif">
+                    Stadion Santiago Bernabéu (Spanyol: Estadio Santiago Bernabéu, 
+                    [esˈtaðjo sanˈtjaɣo βeɾnaˈβew] ( simak)) adalah stadion sepak bola di Madrid, 
+                    Spanyol. Dengan kapasitas tempat duduk saat ini sebanyak 81.044 penonton.[5] Stadion S
+                    antiago Bernabéu telah menjadi stadion kandang Real Madrid sejak selesai pada tahun 1947. 
+                    Ini adalah stadion terbesar kedua di Spanyol dan kandang terbesar ketiga bagi klub papan 
+                    atas Eropa setelah Camp Nou dan Westfalenstadion.
+
+                    Dinamai sesuai nama pemain sepak bola, legenda Real Madrid dan mantan Presiden 
+                    Real Madrid Santiago Bernabéu Yeste (1895–1978). Stadion ini merupakan salah satu stadion 
+                    sepak bola paling terkenal di dunia. Tempat ini telah menjadi tuan rumah final Piala Eropa/Liga
+                    Champions UEFA dalam empat kesempatan: 1957, 1969, 1980 dan 2010.[6] Stadion ini juga menjadi 
+                    tuan rumah leg kedua Final Copa Libertadores 2018, menjadikan Santiago Bernabéu sebagai stadion 
+                    pertama (dan satu-satunya) yang menjadi tuan rumah dua final piala kontinental terpenting 
+                    (Liga Champions UEFA dan Copa Libertadores) .
+
+                    Pertandingan final Piala Negara Eropa 1964 dan Piala Dunia FIFA 1982 juga diadakan di Bernabéu, 
+                    menjadikannya stadion pertama di Eropa yang menjadi tuan rumah final UEFA Euro dan final 
+                    Piala Dunia FIFA.
+                </p>
+            </div>
+        </center>
+    </div>
+    <div class="content" id="About_Me" style="display: none;" >
+        <center>
+            <h1>DENISH KAFAULLOH ARASYID</h1>
+            <IMG src="css/me.jpg" style="width: 25%">
+            <P>NIM : 10123433</P>
+            <P>KELAS : IF-11</P>
+            <P>UNIVERSITAS KOMPUTER INDONESIA</P>
+        </center>
+    </div>
+
+
+    <script>
+        function changeContent(content) {
+            const contents = document.getElementsByClassName('content');
+            const navs = document.getElementsByClassName('nav');
+            const sides = document.getElementsByClassName('side');
+            for (let i = 0; i < contents.length; i++) {
+                contents[i].style.display = 'none';
+            }
+           
+            document.getElementById(content).style.display = 'block';
+            w3_close();
+        }
+
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+</html>
